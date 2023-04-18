@@ -6,3 +6,16 @@ Install these libraries using pip:
 - pip install opencv-python
 - pip install pytesseract
 - pip install pillow
+
+And install Tesseract on your machine:
+For Windows, you can download the installer from the following link: https://github.com/UB-Mannheim/tesseract/wiki
+For Linux, you can install it using the package manager. For example, on Ubuntu or Debian:
+
+bash
+Copy code
+sudo apt-get install tesseract-ocr
+For macOS, you can use Homebrew:
+
+bash
+Copy code
+brew install tesseract
