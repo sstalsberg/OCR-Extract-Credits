@@ -9,7 +9,8 @@ pip install opencv-python
 pip install pytesseract
 pip install pillow
 ```
-And install Tesseract on your machine
+Then install Tesseract on your machine.
+
 For Windows, you can download the installer from the following link: https://github.com/UB-Mannheim/tesseract/wiki
 
 For Linux, you can install it using the package manager. For example, on Ubuntu or Debian:
@@ -21,7 +22,13 @@ For macOS, you can use Homebrew:
 brew install tesseract
 ```
 
-Download the python script and run with:
+Download the python script and edit extract_credits.py so the path to tesseract is correct.
+
+Example
+```py
+    pytesseract.pytesseract.tesseract_cmd = "C:\Program Files\Tesseract-OCR\\tesseract.exe"  # Set the path to your tesseract executable if needed
+```
+Finally run with:
 ```
 python extract_credits.py path/to/video.mp4
 ```
