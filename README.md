@@ -2,7 +2,7 @@
 Python script that uses OCR (Optical Character Recognition) to extract text and end roll credits from a movie or video and save it to a text file.
 The script process a frame every 2 seconds. This can be changed in the code if needed for more or less accuracy. See frame_count in the script.
 
-The code also recognizes similar lines and only wirte new lines to the output file.
+The code also recognizes similar lines and only write new lines to the output file.
 
 To accomplish this task you need OpenCV, pytesseract, and PIL libraries. 
 
